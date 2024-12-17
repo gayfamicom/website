@@ -21,7 +21,7 @@
 title: webSight
 email: gayfamicom@protonmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-    webSight
+    WiP
 domain: gayfamicom.github.io
 baseurl: "/gayfamicom.github.io/" # the subpath of your site, e.g. /blog
 url: "https://gayfamicom.github.io" # the base hostname & protocol for your site, e.g. http://example.com
