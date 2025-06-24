@@ -1,0 +1,26 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/multikey/v1",
+    "https://w3id.org/security/suites/secp256k1-2019/v1"
+  ],
+  "id": "did:web:meow.gayfamicom.lol",
+  "alsoKnownAs": [
+    "at://meow.gayfamicom.lol"
+  ],
+  "verificationMethod": [
+    {
+      "id": "did:web:meow.gayfamicom.lol#atproto",
+      "type": "Multikey",
+      "controller": "did:web:meow.gayfamicom.lol",
+      "publicKeyMultibase": "zDnaexByWdXkh1WbYLjCCs1jaXPxvFU9XiLT9rCB1CPWDSVbj"
+    }
+  ],
+  "service": [
+    {
+      "id": "#atproto_pds",
+      "type": "AtprotoPersonalDataServer",
+      "serviceEndpoint": "https://at.chaogarden.social"
+    }
+  ]
+}
