@@ -18,11 +18,6 @@
 		{
 			"rel": "http://ostatus.org/schema/1.0/subscribe",
 			"template": "https://mastodon.gayfamicom.lol/authorize_interaction?uri={uri}"
-		},
-		{
-			"rel": "http://webfinger.net/rel/avatar",
-			"type": "image/png",
-			"href": "https://mastodon.gayfamicom.lol/system/accounts/avatars/114/781/246/160/537/338/original/f60a4643c239cd5a.png"
 		}
 	],
 }
