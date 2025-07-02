@@ -1,16 +1,16 @@
 {
 	"aliases": [
-		"https://mastodon.gayfamicom.lol/@niko",
-		"https://mastodon.gayfamicom.lol/users/niko"
+		"https://mastodon.gayfamicom.lol/@gayfamicom",
+		"https://mastodon.gayfamicom.lol/users/gayfamicom"
 	],
 	"links": [
 		{
-			"href": "https://mastodon.gayfamicom.lol/@niko",
+			"href": "https://mastodon.gayfamicom.lol/@gayfamicom",
 			"rel": "http://webfinger.net/rel/profile-page",
 			"type": "text/html"
 		},
 		{
-			"href": "https://mastodon.gayfamicom.lol/users/niko",
+			"href": "https://mastodon.gayfamicom.lol/users/gayfamicom",
 			"rel": "self",
 			"type": "application/activity+json"
 		},
@@ -19,5 +19,5 @@
 			"template": "https://mastodon.gayfamicom.lol/authorize_interaction?uri={uri}"
 		}
 	],
-	"subject": "acct:niko@gayfamicom.lol"
+	"subject": "acct:gayfamicom@gayfamicom.lol"
 }
