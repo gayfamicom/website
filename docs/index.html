@@ -6,69 +6,98 @@
 </head>
 <style>
 	body {
-		background-color: #0f0d12;
+		background-color: #1e1e2e;
+		color: #cdd6f4;
+		font-family: "FiraCode Nerd Font", monospace;
+		margin: 0 auto;
+		max-width: 1200px;
 	}
-	h1 {
-		color: azure;
-		font-family: FiraCode Nerd Font;
-		text-align: center;
-		margin-top: 25px;
+	h2 {
+		font-size: 15px;
+		margin: 15px;
 	}
-	p {
-		color: lavenderblush;
-		font-family: FiraCode Nerd Font;
+	footer {
+		font-family: "FiraCode Nerd Font", monospace;
+  		text-align: center;
+  		color: #cdd6f4;
+		font-size: 20px;
+		background-color: #11111b; 
+		padding: 5px; 
+		border: 3px dotted #b4befe;
+		border-radius: 20px;
+	}
+	div {
+		position: absolute; 
+		background-color: #181825; 
+		border-style: outset; 
+		border-color: #b4befe; 
+		border-radius: 20px; 
+		width: 400px; 
 		text-align: center;
-
+		padding: 15px;
+  		left: 50%;
+  		transform: translate(-50%);
+	}
+	section {
+		margin-top: 200px;	
+	}
+	.links img {
+    	width: 50px;
+    	float: left;
+    	padding: 15px;
 	}
 	a {
-		font-family: FiraCode Nerd Font;
-		padding: 10px;
-	}
-	.container img {
 		display: flex;
-    	width: 20px;
-    	float: left;
-    	margin-top: 2px;
-		margin-right: 10px;
+		float: left;
+		justify-content: center;
+		margin: 0 auto;
+	}
+	.sky {
+		filter: invert(82%) sepia(34%) saturate(527%) hue-rotate(150deg) brightness(98%) contrast(88%);
+	}
+	.teal {
+		filter: invert(88%) sepia(15%) saturate(717%) hue-rotate(115deg) brightness(93%) contrast(93%);
+	}
+	.purple {
+		filter: invert(75%) sepia(24%) saturate(3151%) hue-rotate(205deg) brightness(105%) contrast(94%);
+	}
+	.red {
+		filter: invert(67%) sepia(9%) saturate(1815%) hue-rotate(294deg) brightness(94%) contrast(103%);
+	}
+	.blue {
+		filter: invert(58%) sepia(79%) saturate(473%) hue-rotate(191deg) brightness(107%) contrast(96%);
+	}
+	.white {
+		filter: invert(88%) sepia(10%) saturate(1239%) hue-rotate(192deg) brightness(99%) contrast(92%);
 	}
 </style>
 </head>
+<footer>
+	<h1 style="font-size: 30px; margin-top: 10px;">meow!</h1>
+	<p style="font-size: 20px;">welcome!</p>
+</footer>
 <body>
-<h1>welcome to the Inter Net</h1>
-<p></p>
-<div class="container">
-	<img src="./assets/bsky.webp">
-</div>
-<a href="https://bsky.app/profile/did:plc:yt66ucfex7kgaifhu5qijrz3" style="color: #aca5d4" target="_blank">@gayfamicom.lol</a>
-<div class="container">
-	<img src="./assets/fedi.png">
-</div>
-<a rel="me" href="https://wetdry.world/@ps1disc" style="color: #aca5d4" target="_blank">@ps1disc@wetdry.world</a>
-<div class="container">
-	<img src="./assets/fedi.png">
-</div>
-<a rel="me" href="https://fuzzies.wtf/@gayfamicom" style="color: #aca5d4" target="_blank">@gayfamicom@fuzzies.wtf</a>
-<div class="container">
-	<img src="./assets/fedi.png">
-</div>
-<a rel="me" href="https://masto.gayfamicom.lol/@niko" style="color: #aca5d4" target="_blank">@niko@masto.gayfamicom.lol</a>
-<div class="container">
-	<img src="./assets/fedi.png">
-</div>
-<a rel="me" href="https://sk.gayfamicom.lol/@niko" style="color: #aca5d4" target="_blank">@niko@sk.gayfamicom.lol</a>
-<div class="container">
-	<img src="./assets/discord.webp">
-</div>
-<a href="https://discord.com/users/752389000945467482" style="color: #aca5d4" target="_blank">@gayfamicom</a>
-<div class="container">
-	<img src="./assets/yt.webp">
-</div>
-<a href="https://www.youtube.com/@gayfamicom" style="color: #aca5d4" target="_blank">@gayfamicom</a>
-<div class="container">
-	<img src="./assets/steam.webp">
-</div>
-<a href="https://steamcommunity.com/id/gayfamicom/" style="color: #aca5d4" target="_blank">/id/gayfamicom</a>
-</div>
-</div>
+<p>
+	<div class="links">
+		<h2>follow me everywhere!!</h2>
+		<a href="https://www.youtube.com/@gayfamicom" target="_blank"><img src="./assets/yt.svg" alt="youtube logo" class="red"></a>
+		<a href="https://bsky.app/profile/did:plc:yt66ucfex7kgaifhu5qijrz3"><img src="./assets/bsky.svg" class="blue"></a>
+		<a rel="me" href="https://sk.gayfamicom.lol/@niko" target="_blank"><img src="./assets/fedi.svg" class="teal"></a>
+		<!-- to prove these are my accounts -->
+		<a rel="me" href="https://fuzzies.wtf/@gayfamicom"></a>
+		<a rel="me" href="https://wetdry.world/@ps1disc"></a>
+	</div>
+		<div class="links" style="margin-top: 185px;">
+			<h2>add me everywhere!!</h2>
+			<a href="https://steamcommunity.com/id/gayfamicom/" target="_blank"><img src="./assets/steam.svg" class="blue"></a>
+			<a href="https://discord.com/users/752389000945467482" target="_blank"><img src="./assets/discord.svg" class="purple"></a>
+		</div>
+		<div style="margin-top: 372px;">
+			<h2>need to contact me?</h2>
+			<a href="mailto:mail@gayfamicom.com" style="color: #b4befe;"><img src="./assets/mail.svg" style="margin: 0 10px;" class="white">mail@gayfamicom.lol</a>
+			<a href="https://discord.com/users/752389000945467482" style="color: #b4befe;"><img src="./assets/discord.svg" style="margin: 0 10px; width: 24px;" class="white">@gayfamicom</a>
+			<a style="margin: 0 10px">more will be added here... eventually</a>
+		</div>
+</p>
 </body>
 </html>
