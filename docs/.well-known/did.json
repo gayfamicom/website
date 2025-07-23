@@ -4,16 +4,16 @@
     "https://w3id.org/security/multikey/v1",
     "https://w3id.org/security/suites/secp256k1-2019/v1"
   ],
-  "id": "did:web:meow.gayfamicom.lol",
+  "id": "did:web:gayfamicom.lol",
   "alsoKnownAs": [
-    "at://meow.gayfamicom.lol"
+    "at://gayfamicom.lol"
   ],
   "verificationMethod": [
     {
-      "id": "did:web:meow.gayfamicom.lol#atproto",
+      "id": "did:web:gayfamicom.lol#atproto",
       "type": "Multikey",
-      "controller": "did:web:meow.gayfamicom.lol",
-      "publicKeyMultibase": "zDnaexByWdXkh1WbYLjCCs1jaXPxvFU9XiLT9rCB1CPWDSVbj"
+      "controller": "did:web:gayfamicom.lol",
+      "publicKeyMultibase": "zDnaeavH5SxJutYVsGdQjyz1v52fqphjvReWQ9i3cc4utKfb3"
     }
   ],
   "service": [
