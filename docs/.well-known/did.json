@@ -13,7 +13,7 @@
 			"id": "did:web:gayfamicom.lol#atproto",
 			"type": "Multikey",
 			"controller": "did:web:gayfamicom.lol",
-			"publicKeyMultibase": "zQ3shmJhTwR43cXPjkYz4LTsYMW1fWVFBqDVnSLDErCzQGtJU"
+			"publicKeyMultibase": "zQ3shphEiiCkvBCjvPoAMNd4PmS2zBNkF9fzQxhoFFiYen4Cj"
 		}
 	],
 	"service": [
