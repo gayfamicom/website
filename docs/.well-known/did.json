@@ -6,7 +6,7 @@
 	],
 	"id": "did:web:gayfamicom.lol",
 	"alsoKnownAs": [
-		"at://gayfamicom.lol"
+		"at://didweb.gayfamicom.lol"
 	],
 	"verificationMethod": [
 		{
