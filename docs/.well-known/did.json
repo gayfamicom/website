@@ -14,14 +14,14 @@
 			"id": "did:web:gayfamicom.lol#atproto",
 			"type": "Multikey",
 			"controller": "did:web:gayfamicom.lol",
-			"publicKeyMultibase": "zQ3shphEiiCkvBCjvPoAMNd4PmS2zBNkF9fzQxhoFFiYen4Cj"
+			"publicKeyMultibase": "zQ3shj7yhUCMp7wZwCeQNNmeWYZYrrJt522PiKF1UBKD4Tc3X"
 		}
 	],
 	"service": [
 		{
 			"id": "#atproto_pds",
 			"type": "AtprotoPersonalDataServer",
-			"serviceEndpoint": "https://pds.meowing.zip"
+			"serviceEndpoint": "https://pds.synth.download"
 		}
 	]
 }
