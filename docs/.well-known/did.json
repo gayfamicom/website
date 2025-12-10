@@ -9,7 +9,9 @@
 		"at://didweb.gayfamicom.lol",
 		"at://gayfamicom.synth.download",
 		"at://dw.gayfamicom.lol",
-		"at://gayfamicom.lol"
+		"at://gayfamicom.lol",
+		"ap://gayfamicom@merping.synth.download",
+		"https://merping.synth.download/@gayfamicom"
 	],
 	"verificationMethod": [
 		{
@@ -24,6 +26,11 @@
 			"id": "#atproto_pds",
 			"type": "AtprotoPersonalDataServer",
 			"serviceEndpoint": "https://pds.synth.download"
+		},
+		{
+			"id": "#activitypub_instance",
+			"type": "ActivitypubInstance",
+			"serviceEndpoint": "https://merping.synth.download"
 		}
 	]
 }
