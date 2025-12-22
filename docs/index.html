@@ -4,111 +4,46 @@
 	<title>gayfamicom's cool and awesome website!</title>
 	<link rel="icon" type="image/x-icon" href="./assets/favicon.png">
 </head>
-<style>
-	body {
-		background-color: #1e1e2e;
-		color: #cdd6f4;
-		font-family: "FiraCode Nerd Font", monospace;
-		margin: 0 auto;
-		max-width: 1200px;
-		min-width: 400px;
-	}
-	h2 {
-		font-size: 15px;
-		margin: 15px;
-	}
-	footer {
-		font-family: "FiraCode Nerd Font", monospace;
-  		text-align: center;
-  		color: #cdd6f4;
-		font-size: 20px;
-		background-color: #11111b; 
-		padding: 5px; 
-		border: 3px dotted #b4befe;
-		border-radius: 20px;
-	}
-	div {
-		position: absolute; 
-		background-color: #181825; 
-		border-style: outset; 
-		border-color: #b4befe; 
-		border-radius: 20px; 
-		width: 500px; 
-		text-align: center;
-		padding: 15px;
-  		left: 50%;
-  		transform: translate(-50%);
-	}
-	section {
-		margin-top: 200px;	
-	}
-	.links img {
-    	width: 50px;
-    	float: left;
-    	padding: 15px;
-	}
-	a {
-		display: flex;
-		float: left;
-		justify-content: center;
-		margin: 0 auto;
-	}
-	.sky {
-		filter: invert(82%) sepia(34%) saturate(527%) hue-rotate(150deg) brightness(98%) contrast(88%);
-	}
-	.teal {
-		filter: invert(88%) sepia(15%) saturate(717%) hue-rotate(115deg) brightness(93%) contrast(93%);
-	}
-	.purple {
-		filter: invert(75%) sepia(24%) saturate(3151%) hue-rotate(205deg) brightness(105%) contrast(94%);
-	}
-	.red {
-		filter: invert(67%) sepia(9%) saturate(1815%) hue-rotate(294deg) brightness(94%) contrast(103%);
-	}
-	.blue {
-		filter: invert(58%) sepia(79%) saturate(473%) hue-rotate(191deg) brightness(107%) contrast(96%);
-	}
-	.white {
-		filter: invert(88%) sepia(10%) saturate(1239%) hue-rotate(192deg) brightness(99%) contrast(92%);
-	}
-</style>
-</head>
+<link rel="stylesheet" href="styles.css">
 <footer>
-	<h1 style="font-size: 30px; margin-top: 10px;">meow!</h1>
-	<p style="font-size: 15px;">welcome!</p>
+	<div style="display: flex;">
+		<img style="border-radius: 15px; border: 2px solid #ca9ee6; width: 70px; height: auto" src="./assets/pfp.jpg" alt="fursona">
+		<a style=" padding: 20px; text-align: center">gayfamicom's cool and awesome website!<small style="color: #9399b2 ;margin-left: 10px; font-size: 12px;">awwahhff mrrroow!~</small></a>
+	</div>
+	<div style="font-size: 15px; margin-top: 20px; margin-left: 2px; margin-bottom: 10px; display: flex;">
+		<div class="dropdown">
+		  <a href="./about-me.html" class="dropbtn">about me!</a>
+		</div>
+		<div class="dropdown" tabindex="1">
+		  <i class="db2" tabindex="1"></i>
+		  <a style="margin-left: 5px;" class="dropbtn">follow me on socials</a>
+		   <div class="dropdown-content">
+		      <a style="color: #89b4fa; border: 0px soild transparent; border-radius: 20px;" href="https://bsky.app/profile/did:web:gayfamicom.lol" target="_blank">bluesky</a>
+		      <a style="color: #94e2d5; border: 0px soild transparent; border-radius: 20px;" rel="me" href="https://merping.synth.download/@gayfamicom" target="_blank">fediverse</a>
+		      <a style="color: #f38ba8; border: 0px soild transparent; border-radius: 20px;" href="https://youtube.com/@gayfamicom" target="_blank">youtube</a>
+		   </div>
+		</div>
+		<div class="dropdown" tabindex="1">
+		  <i class="db2" tabindex="1"></i>
+		  <a style="margin-left: 5px;" class="dropbtn">add me!</a>
+		   <div class="dropdown-content">
+		      <a style="color: #89dceb; border: 0px soild transparent; border-radius: 20px;" href="https://steamcommunity.com/id/gayfamicom/" target="_blank">steam</a>
+		   </div>
+		</div>
+		<div class="dropdown" tabindex="1">
+		  <i class="db2" tabindex="1"></i>
+		  <a style="margin-left: 5px;" class="dropbtn">contact info</a>
+		   <div class="dropdown-content">
+		      <a style="color: #b4befe; border: 0px soild transparent; border-radius: 20px;" href="https://discord.com/users/752389000945467482" target="_blank">discord</a>
+		      <a style="color: #89b4fa; border: 0px soild transparent; border-radius: 20px;" href="https://signal.me/#eu/xhGmxYVp-uOwNmQMWmpPv_O3NvCOA6pH7O1FOt_C1VG3Wkd-9TxAdr1qkhvumTX1" target="_blank">signal</a>
+		      <a style="color: #eba0ac; border: 0px soild transparent; border-radius: 20px;" href="mailto:mail@gayfamicom.lol">email</a>
+		   </div>
+		</div>
+		<a style="margin-left: 15px; font-size: 12px; color: #6c7086;">gallery (under construction)</a>
+	</div>
 </footer>
 <body>
-<p>
-	<div>
-		<a style="margin-bottom: 15px">mrrrow meeeooow!! hiii welcome to my website!!</a>
-		<a href="./about-me.html"style="color: #b4befe;">about me!</a>
-		<a style="color: #585b70; margin: 0 25px">current profile picture source! - N/A</a>
-	</div>
-	<div class="links" style="margin-top: 105px;">
-		<h2>follow me everywhere!!</h2>
-		<a href="https://www.youtube.com/@gayfamicom" target="_blank"><img src="./assets/yt.svg" alt="youtube logo" class="red"></a>
-		<a href="https://bsky.app/profile/did:web:gayfamicom.lol"><img src="./assets/bsky.svg" class="blue"></a>
-		<a rel="me" href="https://merping.synth.download/@gayfamicom" target="_blank"><img src="./assets/fedi.svg" class="teal"></a>
 		<a rel="me" href="https://fuzzies.wtf/@gayfamicom"></a>
 		<a rel="me" href="https://app.wafrn.net/blog/gayfamicom"></a>
-	</div>
-	<div class="links" style="margin-top: 282px;">
-		<h2>add me everywhere!!</h2>
-		<a href="https://steamcommunity.com/id/gayfamicom/" target="_blank"><img src="./assets/steam.svg" class="blue"></a>
-		<a href="https://discord.com/users/752389000945467482" target="_blank"><img src="./assets/discord.svg" class="purple"></a>
-	</div>
-	<div style="margin-top: 460px;">
-		<h2>need to contact me?</h2>
-		<a href="mailto:mail@gayfamicom.lol" style="color: #b4befe; margin-top: 5px;"><img src="./assets/mail.svg" style="margin: 0 10px;" class="white">mail@gayfamicom.lol</a>
-		<a href="https://discord.com/users/752389000945467482" style="color: #b4befe; margin-top: 5px;"><img src="./assets/discord.svg" style="margin: 0 10px; width: 24px;" class="white">@gayfamicom</a>
-		<a style="color: #b4befe; margin-top: 5px;"><img src="./assets/signal.svg" style="margin: 0 10px; width: 22px;" class="white">gayfamicom.71</a>
-		<a style="margin: 0 10px; margin-top: 5px; color: #7f849c;">more will be added here... eventually</a>
-	</div>
-	<div style="margin-top: 640px;">
-		<h2>check out my cool and awesome services!!</h2>
-		<a href="https://cloud.gayfamicom.lol" style="color: #b4befe; margin: 0 10px; margin-top: 10px;">nextcloud instance</a>
-		<a href="https://uptime.gayfamicom.lol/status/services" style="color: #b4befe; margin: 0 10px; margin-top: 10px;">status page!</a>
-	</div>
-</p>
 </body>
 </html>

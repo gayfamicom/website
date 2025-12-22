@@ -4,90 +4,70 @@
   <title>about me!</title>
   <link rel="icon" type="image/x-icon" href="./assets/favicon.png">
 </head>
-<style>
-  body {
-    background-color: #1e1e2e;
-    color: #cdd6f4;
-    font-family: "FiraCode Nerd Font", monospace;
-    margin: 0 auto;
-    max-width: 1200px;
-    min-width: 400px;
-  }
-  h2 {
-    font-size: 15px;
-    margin: 15px;
-  }
-  footer {
-    font-family: "FiraCode Nerd Font", monospace;
-    text-align: center;
-    color: #cdd6f4;
-    font-size: 20px;
-    background-color: #11111b; 
-    padding: 5px; 
-    border: 3px dotted #b4befe;
-    border-radius: 20px;
-  }
-  div {
-    position: absolute; 
-    background-color: #181825; 
-    border-style: outset; 
-    border-color: #b4befe; 
-    border-radius: 20px; 
-    width: 500px; 
-    text-align: center;
-    padding: 15px;
-      left: 50%;
-      transform: translate(-50%);
-  }
-  section {
-    margin-top: 200px;  
-  }
-  .links img {
-      width: 50px;
-      float: left;
-      padding: 15px;
-  }
-  .sky {
-    filter: invert(82%) sepia(34%) saturate(527%) hue-rotate(150deg) brightness(98%) contrast(88%);
-  }
-  .teal {
-    filter: invert(88%) sepia(15%) saturate(717%) hue-rotate(115deg) brightness(93%) contrast(93%);
-  }
-  .purple {
-    filter: invert(75%) sepia(24%) saturate(3151%) hue-rotate(205deg) brightness(105%) contrast(94%);
-  }
-  .red {
-    filter: invert(67%) sepia(9%) saturate(1815%) hue-rotate(294deg) brightness(94%) contrast(103%);
-  }
-  .blue {
-    filter: invert(58%) sepia(79%) saturate(473%) hue-rotate(191deg) brightness(107%) contrast(96%);
-  }
-  .white {
-    filter: invert(88%) sepia(10%) saturate(1239%) hue-rotate(192deg) brightness(99%) contrast(92%);
-  }
-</style>
+<link rel="stylesheet" href="styles.css">
 </head>
 <footer>
-  <h1 style="font-size: 30px; margin-top: 10px;">about me!</h1>
-  <a style="text-align: center; font-size: 15px; margin-top: 5px; color: #b4befe;" href=".">< go back!</a>
+	<div style="display: flex;">
+		<img style="border-radius: 15px; border: 2px solid #ca9ee6; width: 70px; height: auto" src="./assets/pfp.jpg" alt="fursona">
+		<a style=" padding: 20px; text-align: center">about me!<small style="color: #9399b2 ;margin-left: 10px; font-size: 12px;">gayfamicom's cool and awesome website!~</small></a>
+	</div>
+	<div style="font-size: 15px; margin-top: 20px; margin-left: 2px; margin-bottom: 10px; display: flex;">
+		<div class="dropdown">
+		  <a href="." class="dropbtn">< go back!</a>
+		</div>
+		<div class="dropdown" tabindex="1">
+		  <i class="db2" tabindex="1"></i>
+		  <a style="margin-left: 5px;" class="dropbtn">follow me on socials</a>
+		   <div class="dropdown-content">
+		      <a style="color: #89b4fa; border: 0px soild transparent; border-radius: 20px;" href="https://bsky.app/profile/did:web:gayfamicom.lol" target="_blank">bluesky</a>
+		      <a style="color: #94e2d5; border: 0px soild transparent; border-radius: 20px;" rel="me" href="https://merping.synth.download/@gayfamicom" target="_blank">fediverse</a>
+		      <a style="color: #f38ba8; border: 0px soild transparent; border-radius: 20px;" href="https://youtube.com/@gayfamicom" target="_blank">youtube</a>
+		   </div>
+		</div>
+		<div class="dropdown" tabindex="1">
+		  <i class="db2" tabindex="1"></i>
+		  <a style="margin-left: 5px;" class="dropbtn">add me!</a>
+		   <div class="dropdown-content">
+		      <a style="color: #89dceb; border: 0px soild transparent; border-radius: 20px;" href="https://steamcommunity.com/id/gayfamicom/" target="_blank">steam</a>
+		   </div>
+		</div>
+		<div class="dropdown" tabindex="1">
+		  <i class="db2" tabindex="1"></i>
+		  <a style="margin-left: 5px;" class="dropbtn">contact info</a>
+		   <div class="dropdown-content">
+		      <a style="color: #b4befe; border: 0px soild transparent; border-radius: 20px;" href="https://discord.com/users/752389000945467482" target="_blank">discord</a>
+		      <a style="color: #89b4fa; border: 0px soild transparent; border-radius: 20px;" href="https://signal.me/#eu/xhGmxYVp-uOwNmQMWmpPv_O3NvCOA6pH7O1FOt_C1VG3Wkd-9TxAdr1qkhvumTX1" target="_blank">signal</a>
+		      <a style="color: #eba0ac; border: 0px soild transparent; border-radius: 20px;" href="mailto:mail@gayfamicom.lol">email</a>
+		   </div>
+		</div>
+		<a style="margin-left: 15px; font-size: 12px; color: #6c7086;">gallery (under construction)</a>
+	</div>
 </footer>
 <body>
-<p>
-  <div>
-    <h2>who am i?</h2>
-    <p>hi, my name is Niko! just some weird cat thing on the internet who loves technology and things adjacent to it!! im currently 21 years!! im genderfluid, ace, and biromantic!! and my pronouns are <span style="color: #b4befe">she/he/it</span>!!</p>
-    <a style="color: #f38ba8"> im autistic!! so communication is hard sometimes! i struggle with Direct Communication!</a>
-  </div>
-  <div style="margin-top: 268px;">
-    <h2>what do i do?</h2>
-    <a>hobbyist video editor and VFX artist sometimes!! and fucking around with technology!</a>
-  </div>
-  <div style="margin-top: 409px;">
-    <h2>need to contact me?</h2>
-    <a href="mailto:mail@gayfamicom.lol" style="color: #b4befe; margin-top: 5px;"><img src="./assets/mail.svg" style="margin: 0 10px;" class="white">mail@gayfamicom.lol</a>
-    <a href="https://discord.com/users/752389000945467482" style="color: #b4befe; margin-top: 5px;"><img src="./assets/discord.svg" style="margin: 0 10px; width: 24px;" class="white">@gayfamicom</a>
-    <a style="margin: 0 10px; margin-top: 5px; color: #7f849c;">more will be added here... eventually</a>
-  </div>
-</p>
+	<div style="margin-top: 20px; postition: absolute; background-color: #11111b; border-radius: 20px; padding: 10px;">
+		<h3>who am i?</h3>
+		<a style="font-size: 13px;">
+			hi!! my name is Niko, this is my website <small style="font-size: 10px;">(waow)</small>.<br><br>i like computer-adjecent things and i also like to do video editing and VFX stuff!!<br><br>im queer as fuck!! if u dont like that... GET THE FUCK OFF MY PAGE!!!!!<br>my pronouns are it/its, im genderfluid, asexual, and biromantic!!<br><br>you may see me call myself "some cat thing" but that's actually my fursona <small>(currently being redesigned atm)</small>, its a cat fox shapeshifter thing!
+		</a>
+		<div style="margin-top: 20px; color: #f38ba8; font-size: 15px;"">
+			im autistic as Fuck!!! so communication *might* be hard, please keep that in mind if u ever choose to talk to me, its not that i dont care!!
+		</div>
+	</div>
+	<div style="margin-top: 20px; postition: absolute; background-color: #11111b; border-radius: 20px; padding: 10px;">
+		<h3>what do u use for video editing?</h3>
+		<a style="color: #b4befe; font-size: 13px;">
+			adobe premiere pro (SORRY)
+		</a>
+		<a>-</a>
+		<a style="color: #b4befe; font-size: 13px;">
+			adobe after effects (SORRY)
+		</a>
+		<a>-</a>
+		<a style="color: #89b4fa; font-size: 13px;">
+			adobe photoshop (SORRY)
+		</a>
+		<h3>what about audio stuff?</h3>
+		<a style="color: #a6e3a1; font-size: 13px;">just reaper...</a>
+	</div>
 </body>
 </html>
