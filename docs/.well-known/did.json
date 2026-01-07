@@ -10,8 +10,8 @@
 		"at://didweb.gayfamicom.lol",
 		"at://gayfamicom.synth.download",
 		"at://dw.gayfamicom.lol",
-		"ap://gayfamicom@merping.synth.download",
-		"https://merping.synth.download/@gayfamicom"
+		"ap+web://gayfamicom@booping.synth.download",
+		"https://booping.synth.download/@gayfamicom"
 	],
 	"verificationMethod": [
 		{
@@ -30,7 +30,7 @@
 		{
 			"id": "#activitypub_instance",
 			"type": "ActivitypubInstance",
-			"serviceEndpoint": "https://merping.synth.download"
+			"serviceEndpoint": "https://booping.synth.download"
 		}
 	]
 }
