@@ -7,10 +7,7 @@
 		min-width: 400px;
 	}
     .divider {
-		border: none;
-  		border-top: 2px solid #313244;
-  		height: 0;
-  		width: 99%;
+  		border-top: 2px dashed #313244;
   		margin: 20px auto;
     }
 	.main {
@@ -53,6 +50,7 @@
 	.dropdown .dropdown-content {
 	  position: absolute;
 	  top: 50%;
+	  margin-top: 6px;
 	  border: 1px solid #cba6f7;
 	  border-radius: 15px;
 	  background-color: #11111b;
